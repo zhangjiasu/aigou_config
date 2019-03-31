@@ -7,7 +7,7 @@ server:
   port: 8002
 spring:
   application:
-    name: PRODUCT-PROVIDER
+    name: PRODUCT-SERVICE
   profiles: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -32,7 +32,7 @@ server:
   port: 8011
 spring:
   application:
-    name: PRODUCT-PROVIDER-TEST
+    name: PRODUCT-SERVICE-TEST
   profiles: test
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
