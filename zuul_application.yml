@@ -46,3 +46,4 @@ zuul:
     plat.path: /plat/**
     product.serviceId: AIGOU-PRODUCT-APPLICATION-TEST
     product.path: /product/**
+    #
