@@ -23,7 +23,7 @@ mybatis-plus:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿 #单机 环境
+      defaultZone: http://localhost:7001/eureka  
 
 
 ---
@@ -41,6 +41,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿 
+      defaultZone: http://localhost:7001/eureka  
   instance:
-    prefer-ip-address: true #显示客户端真实ip
+    prefer-ip-address: true 
