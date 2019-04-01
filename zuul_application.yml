@@ -36,7 +36,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: gateway-9527.com
+    instance-id: gateway-9528.com
     prefer-ip-address: true
 zuul:
   prefix: "/aigou"
@@ -46,4 +46,4 @@ zuul:
     plat.path: /plat/**
     product.serviceId: AIGOU-PRODUCT-APPLICATION-TEST
     product.path: /product/**
-    #
+  
