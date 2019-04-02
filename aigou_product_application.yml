@@ -7,7 +7,7 @@ server:
   port: 8002
 spring:
   application:
-    name: AIGOU-PRODUCT-APPLICATION
+    name: AIGOU-PRODUCT
   profiles: dev
 
   datasource:
@@ -31,7 +31,7 @@ server:
   port: 8011
 spring:
   application:
-    name: AIGOU-PRODUCT-APPLICATION-TEST
+    name: AIGOU-PRODUCT-TEST
   profiles: test
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
