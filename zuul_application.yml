@@ -22,7 +22,7 @@ zuul:
   routes:
     plat.serviceId: plat-service
     plat.path: /plat/**
-    product.serviceId: AIGOU-PRODUCT-APPLICATION
+    product.serviceId: aigou-product
     product.path: /product/**
 ---
 server:
@@ -44,6 +44,6 @@ zuul:
   routes:
     plat.serviceId: plat-service
     plat.path: /plat/**
-    product.serviceId: AIGOU-PRODUCT-APPLICATION-TEST
+    product.serviceId: aigou-product
     product.path: /product/**
   
