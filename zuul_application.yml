@@ -44,6 +44,6 @@ zuul:
   routes:
     plat.serviceId: plat-service
     plat.path: /plat/**
-    product.serviceId: aigou-product
+    product.serviceId: aigou-product-test
     product.path: /product/**
   
